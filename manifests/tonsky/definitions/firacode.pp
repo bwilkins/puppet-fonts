@@ -4,9 +4,9 @@ define fonts::tonsky::definitions::firacode {
   $fonts="/Users/${::luser}/Library/Fonts"
   $location='tonsky/firacode'
   $prefix='FiraCode'
-  file { "${prefix}-${title}.ttf":
+  file { "${prefix}-${title}.otf":
     ensure => 'present',
-    path   => "${fonts}/${prefix}-${title}.ttf",
-    source => "puppet:///modules/fonts/${location}/${prefix}-${title}.ttf"
+    path   => "${fonts}/${prefix}-${title}.otf",
+    source => "puppet:///modules/fonts/${location}/${prefix}-${title}.otf"
   }
 }
