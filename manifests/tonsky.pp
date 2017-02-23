@@ -2,7 +2,7 @@
 #
 # Example
 #
-#   include fonts::adobe
+#   include fonts::firacode
 class fonts::tonsky {
   include fonts::tonsky::firacode
 }
